@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_data_access_1_1_abstarct" kind="namespace">
+    <compoundname>DataAccess::Abstarct</compoundname>
+    <innerclass refid="interface_data_access_1_1_abstarct_1_1_i_product_dal" prot="public">DataAccess::Abstarct::IProductDal</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Abstract/IProductDal.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

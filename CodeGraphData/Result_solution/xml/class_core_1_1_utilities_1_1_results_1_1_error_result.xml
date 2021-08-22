@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_core_1_1_utilities_1_1_results_1_1_error_result" kind="class" prot="public">
+    <compoundname>Core::Utilities::Results::ErrorResult</compoundname>
+    <basecompoundref refid="class_core_1_1_utilities_1_1_results_1_1_result" prot="public" virt="non-virtual">Core.Utilities.Results.Result</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_utilities_1_1_results_1_1_error_result_1ace4a27abce87339716d6a74b63825571" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Core.Utilities.Results.ErrorResult.ErrorResult</definition>
+        <argsstring>(string message)</argsstring>
+        <name>ErrorResult</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/ErrorResult.cs" line="9" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/ErrorResult.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_utilities_1_1_results_1_1_error_result_1abe9811acb80152cd6f5664331ed27307" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Core.Utilities.Results.ErrorResult.ErrorResult</definition>
+        <argsstring>()</argsstring>
+        <name>ErrorResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/ErrorResult.cs" line="13" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/ErrorResult.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="36">
+        <label>Core.Utilities.Results.ErrorResult</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_error_result"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Result</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_result"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>IResult</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_result"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>Core.Utilities.Results.ErrorResult</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_error_result"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Result</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_result"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>IResult</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_result"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/ErrorResult.cs" line="8" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/ErrorResult.cs" bodystart="7" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_error_result_1ace4a27abce87339716d6a74b63825571" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::ErrorResult</scope><name>ErrorResult</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_error_result_1abe9811acb80152cd6f5664331ed27307" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::ErrorResult</scope><name>ErrorResult</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a01315fc0b0f08dca8092356cae8b20a9" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::ErrorResult</scope><name>Message</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a92a5247de0a3061674785168b3e5cf95" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::ErrorResult</scope><name>Result</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a9a571a416f385fbf625fd014f1199af4" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::ErrorResult</scope><name>Result</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a4830234eee139e72b9f6bfbe601b83b1" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::ErrorResult</scope><name>Success</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

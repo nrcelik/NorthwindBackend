@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_business_1_1_contants_1_1_messages" kind="class" prot="public">
+    <compoundname>Business::Contants::Messages</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_business_1_1_contants_1_1_messages_1a03139cbb28773a301355656e6ea44229" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Business.Contants.Messages.ProductAdded</definition>
+        <argsstring></argsstring>
+        <name>ProductAdded</name>
+        <initializer>= &quot;The product has been added&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Contants/Messages.cs" line="9" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Contants/Messages.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_business_1_1_concrete_1_1_product_manager_1a542f3909d4dada51bbcce69e45c7eec9" compoundref="_product_manager_8cs" startline="21" endline="25">Business.Concrete.ProductManager.Add</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_business_1_1_contants_1_1_messages_1a7ef74365773d6540061fe9b6acfd8ee8" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Business.Contants.Messages.ProductDeleted</definition>
+        <argsstring></argsstring>
+        <name>ProductDeleted</name>
+        <initializer>= &quot;The product has been deleted&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Contants/Messages.cs" line="10" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Contants/Messages.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_business_1_1_concrete_1_1_product_manager_1a7a2b2e7b9e9bc9000da05aa7c73f6e9d" compoundref="_product_manager_8cs" startline="27" endline="31">Business.Concrete.ProductManager.Delete</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_business_1_1_contants_1_1_messages_1a3f284bacbf6dfbf6c36c16c828896523" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Business.Contants.Messages.ProductUpdated</definition>
+        <argsstring></argsstring>
+        <name>ProductUpdated</name>
+        <initializer>= &quot;The product has been updated&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Contants/Messages.cs" line="11" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Contants/Messages.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_business_1_1_concrete_1_1_product_manager_1aa2f9e7e991f3a6706f79db510179c14d" compoundref="_product_manager_8cs" startline="32" endline="36">Business.Concrete.ProductManager.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Contants/Messages.cs" line="8" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Contants/Messages.cs" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_business_1_1_contants_1_1_messages_1a03139cbb28773a301355656e6ea44229" prot="public" virt="non-virtual"><scope>Business::Contants::Messages</scope><name>ProductAdded</name></member>
+      <member refid="class_business_1_1_contants_1_1_messages_1a7ef74365773d6540061fe9b6acfd8ee8" prot="public" virt="non-virtual"><scope>Business::Contants::Messages</scope><name>ProductDeleted</name></member>
+      <member refid="class_business_1_1_contants_1_1_messages_1a3f284bacbf6dfbf6c36c16c828896523" prot="public" virt="non-virtual"><scope>Business::Contants::Messages</scope><name>ProductUpdated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

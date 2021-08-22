@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_636694c74a12c8d733d048539cbdd857" kind="dir">
+    <compoundname>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess</compoundname>
+    <innerdir refid="dir_d1f74cf36ab9bc06aa0c9bd451cc58c6">C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork</innerdir>
+    <innerfile refid="_i_entity_repository_8cs">IEntityRepository.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/"/>
+  </compounddef>
+</doxygen>

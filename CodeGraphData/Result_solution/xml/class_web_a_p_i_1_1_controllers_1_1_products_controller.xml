@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_web_a_p_i_1_1_controllers_1_1_products_controller" kind="class" prot="public">
+    <compoundname>WebAPI::Controllers::ProductsController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a6d99cd487c7249063904eba22d66d8a4" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_business_1_1_abstract_1_1_i_product_service" kindref="compound">IProductService</ref></type>
+        <definition>IProductService WebAPI.Controllers.ProductsController._productService</definition>
+        <argsstring></argsstring>
+        <name>_productService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" line="16" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a10ef5dd1bd49dd3c072c87ee5e968cd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WebAPI.Controllers.ProductsController.ProductsController</definition>
+        <argsstring>(IProductService productService)</argsstring>
+        <name>ProductsController</name>
+        <param>
+          <type><ref refid="interface_business_1_1_abstract_1_1_i_product_service" kindref="compound">IProductService</ref></type>
+          <declname>productService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" line="17" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_a_p_i_1_1_controllers_1_1_products_controller_1aaa28a510bca1b69e177df80de2201960" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult WebAPI.Controllers.ProductsController.GetList</definition>
+        <argsstring>()</argsstring>
+        <name>GetList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" line="23" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_a_p_i_1_1_controllers_1_1_products_controller_1ab30b7fda4b5b6168b7f0720a3ff0de68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult WebAPI.Controllers.ProductsController.GetListByCategory</definition>
+        <argsstring>(int categoryId)</argsstring>
+        <name>GetListByCategory</name>
+        <param>
+          <type>int</type>
+          <declname>categoryId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" line="34" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" bodystart="34" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a842e91941a927d1cd48c7235eff17de2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult WebAPI.Controllers.ProductsController.GetById</definition>
+        <argsstring>(int productId)</argsstring>
+        <name>GetById</name>
+        <param>
+          <type>int</type>
+          <declname>productId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" line="46" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" bodystart="46" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a7186ce33697410a84748e3e8de3c0bfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult WebAPI.Controllers.ProductsController.Add</definition>
+        <argsstring>(Product product)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_entities_1_1_concrete_1_1_product" kindref="compound">Product</ref></type>
+          <declname>product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" line="58" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" bodystart="58" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a14b8fa40d1aebe1a5f9ab2d52b8eda4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult WebAPI.Controllers.ProductsController.Update</definition>
+        <argsstring>(Product product)</argsstring>
+        <name>Update</name>
+        <param>
+          <type><ref refid="class_entities_1_1_concrete_1_1_product" kindref="compound">Product</ref></type>
+          <declname>product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" line="70" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" bodystart="70" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_a_p_i_1_1_controllers_1_1_products_controller_1acdbc72da19264ae7d07ed6129cf6ca39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult WebAPI.Controllers.ProductsController.Delete</definition>
+        <argsstring>(Product product)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type><ref refid="class_entities_1_1_concrete_1_1_product" kindref="compound">Product</ref></type>
+          <declname>product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" line="82" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" bodystart="82" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="89">
+        <label>ControllerBase</label>
+      </node>
+      <node id="88">
+        <label>WebAPI.Controllers.ProductsController</label>
+        <link refid="class_web_a_p_i_1_1_controllers_1_1_products_controller"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="92">
+        <label>Business.Abstract.IProductService</label>
+        <link refid="interface_business_1_1_abstract_1_1_i_product_service"/>
+      </node>
+      <node id="91">
+        <label>ControllerBase</label>
+      </node>
+      <node id="90">
+        <label>WebAPI.Controllers.ProductsController</label>
+        <link refid="class_web_a_p_i_1_1_controllers_1_1_products_controller"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="usage">
+          <edgelabel>_productService</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" line="15" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/ProductsController.cs" bodystart="14" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a6d99cd487c7249063904eba22d66d8a4" prot="private" virt="non-virtual"><scope>WebAPI::Controllers::ProductsController</scope><name>_productService</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a7186ce33697410a84748e3e8de3c0bfa" prot="public" virt="non-virtual"><scope>WebAPI::Controllers::ProductsController</scope><name>Add</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1acdbc72da19264ae7d07ed6129cf6ca39" prot="public" virt="non-virtual"><scope>WebAPI::Controllers::ProductsController</scope><name>Delete</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a842e91941a927d1cd48c7235eff17de2" prot="public" virt="non-virtual"><scope>WebAPI::Controllers::ProductsController</scope><name>GetById</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1aaa28a510bca1b69e177df80de2201960" prot="public" virt="non-virtual"><scope>WebAPI::Controllers::ProductsController</scope><name>GetList</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1ab30b7fda4b5b6168b7f0720a3ff0de68" prot="public" virt="non-virtual"><scope>WebAPI::Controllers::ProductsController</scope><name>GetListByCategory</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a10ef5dd1bd49dd3c072c87ee5e968cd0" prot="public" virt="non-virtual"><scope>WebAPI::Controllers::ProductsController</scope><name>ProductsController</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a14b8fa40d1aebe1a5f9ab2d52b8eda4e" prot="public" virt="non-virtual"><scope>WebAPI::Controllers::ProductsController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4" kind="class" prot="public">
+    <compoundname>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</compoundname>
+    <basecompoundref refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4" prot="public" virt="non-virtual">Core.DataAccess.IEntityRepository&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>TEntity</type>
+      </param>
+      <param>
+        <type>TContext</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a89f86433cb0a80a62551821e7be816eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core.DataAccess.EntityFramwork.EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;.Add</definition>
+        <argsstring>(TEntity entity)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" line="15" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" bodystart="15" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a707220f474f0acd7a3d875a829ba9c88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core.DataAccess.EntityFramwork.EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;.Delete</definition>
+        <argsstring>(TEntity entitiy)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entitiy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" line="26" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" bodystart="26" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1afb68c896311f18aaaf9049cc6424f41f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TEntity</type>
+        <definition>TEntity Core.DataAccess.EntityFramwork.EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;.Get</definition>
+        <argsstring>(Expression&lt; Func&lt; TEntity, bool &gt;&gt; filter)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>Expression&lt; Func&lt; TEntity, bool &gt;&gt;</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" line="37" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a19cde6ebc7ff567a0ac5f9fb5c5c3a9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IList&lt; TEntity &gt;</type>
+        <definition>IList&lt;TEntity&gt; Core.DataAccess.EntityFramwork.EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;.GetList</definition>
+        <argsstring>(Expression&lt; Func&lt; TEntity, bool &gt;&gt; filter=null)</argsstring>
+        <name>GetList</name>
+        <param>
+          <type>Expression&lt; Func&lt; TEntity, bool &gt;&gt;</type>
+          <declname>filter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" line="45" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" bodystart="45" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a9fc02f86ea7060085dad087743196d98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core.DataAccess.EntityFramwork.EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;.Update</definition>
+        <argsstring>(TEntity entitiy)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>TEntity</type>
+          <declname>entitiy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" line="55" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" bodystart="55" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="14">
+        <label>Core.DataAccess.EntityFramwork.EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</label>
+        <link refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>IEntityRepository&lt; TEntity &gt;</label>
+        <link refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>Core.DataAccess.EntityFramwork.EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</label>
+        <link refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>IEntityRepository&lt; TEntity &gt;</label>
+        <link refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" line="14" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" bodystart="11" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a89f86433cb0a80a62551821e7be816eb" prot="public" virt="non-virtual"><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>Add</name></member>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a7deae12be937a2ebc786d40ca53498c2" prot="public" virt="non-virtual" ambiguityscope="Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>Add</name></member>
+      <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a707220f474f0acd7a3d875a829ba9c88" prot="public" virt="non-virtual"><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>Delete</name></member>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1aaeefaae841db910423f4fe6be26812b7" prot="public" virt="non-virtual" ambiguityscope="Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>Delete</name></member>
+      <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1afb68c896311f18aaaf9049cc6424f41f" prot="public" virt="non-virtual"><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>Get</name></member>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1ac883d7e79c21d552d662d712516f6782" prot="public" virt="non-virtual" ambiguityscope="Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>Get</name></member>
+      <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a19cde6ebc7ff567a0ac5f9fb5c5c3a9d" prot="public" virt="non-virtual"><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>GetList</name></member>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a53bccf04d735617326ccb1b75cc3ad72" prot="public" virt="non-virtual" ambiguityscope="Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>GetList</name></member>
+      <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a9fc02f86ea7060085dad087743196d98" prot="public" virt="non-virtual"><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>Update</name></member>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a37ec4ddcc3c566948af0fde562360b00" prot="public" virt="non-virtual" ambiguityscope="Core::DataAccess::IEntityRepository&lt; T &gt;."><scope>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

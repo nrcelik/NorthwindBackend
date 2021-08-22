@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_web_a_p_i_1_1_weather_forecast" kind="class" prot="public">
+    <compoundname>WebAPI::WeatherForecast</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_web_a_p_i_1_1_weather_forecast_1a5cc70faba6624e6cb213963e9f936b95" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime WebAPI.WeatherForecast.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" line="7" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_a_p_i_1_1_weather_forecast_1ae126062f15bbe2003e58f0d532fa9ef2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int WebAPI.WeatherForecast.TemperatureC</definition>
+        <argsstring></argsstring>
+        <name>TemperatureC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" line="9" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_web_a_p_i_1_1_weather_forecast_1aa9331bfe1c075006a48816b519330fca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string WebAPI.WeatherForecast.Summary</definition>
+        <argsstring></argsstring>
+        <name>Summary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" line="13" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_web_a_p_i_1_1_weather_forecast_1a8d7760a2054d797e84e8257093519bda" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WebAPI.WeatherForecast.TemperatureF</definition>
+        <argsstring></argsstring>
+        <name>TemperatureF</name>
+        <initializer>=&gt; 32 + (int)(<ref refid="class_web_a_p_i_1_1_weather_forecast_1ae126062f15bbe2003e58f0d532fa9ef2" kindref="member">TemperatureC</ref> / 0.5556)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" line="11" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" line="6" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/WeatherForecast.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_web_a_p_i_1_1_weather_forecast_1a5cc70faba6624e6cb213963e9f936b95" prot="public" virt="non-virtual"><scope>WebAPI::WeatherForecast</scope><name>Date</name></member>
+      <member refid="class_web_a_p_i_1_1_weather_forecast_1aa9331bfe1c075006a48816b519330fca" prot="public" virt="non-virtual"><scope>WebAPI::WeatherForecast</scope><name>Summary</name></member>
+      <member refid="class_web_a_p_i_1_1_weather_forecast_1ae126062f15bbe2003e58f0d532fa9ef2" prot="public" virt="non-virtual"><scope>WebAPI::WeatherForecast</scope><name>TemperatureC</name></member>
+      <member refid="class_web_a_p_i_1_1_weather_forecast_1a8d7760a2054d797e84e8257093519bda" prot="public" virt="non-virtual"><scope>WebAPI::WeatherForecast</scope><name>TemperatureF</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

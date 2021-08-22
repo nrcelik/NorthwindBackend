@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_core_1_1_utilities_1_1_results" kind="namespace">
+    <compoundname>Core::Utilities::Results</compoundname>
+    <innerclass refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4" prot="public">Core::Utilities::Results::DataResult&lt; T &gt;</innerclass>
+    <innerclass refid="class_core_1_1_utilities_1_1_results_1_1_error_data_result_3_01_t_01_4" prot="public">Core::Utilities::Results::ErrorDataResult&lt; T &gt;</innerclass>
+    <innerclass refid="class_core_1_1_utilities_1_1_results_1_1_error_result" prot="public">Core::Utilities::Results::ErrorResult</innerclass>
+    <innerclass refid="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4" prot="public">Core::Utilities::Results::IDataResult&lt; T &gt;</innerclass>
+    <innerclass refid="interface_core_1_1_utilities_1_1_results_1_1_i_result" prot="public">Core::Utilities::Results::IResult</innerclass>
+    <innerclass refid="class_core_1_1_utilities_1_1_results_1_1_result" prot="public">Core::Utilities::Results::Result</innerclass>
+    <innerclass refid="class_core_1_1_utilities_1_1_results_1_1_success_data_result_3_01_t_01_4" prot="public">Core::Utilities::Results::SuccessDataResult&lt; T &gt;</innerclass>
+    <innerclass refid="class_core_1_1_utilities_1_1_results_1_1_success_result" prot="public">Core::Utilities::Results::SuccessResult</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/DataResult.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

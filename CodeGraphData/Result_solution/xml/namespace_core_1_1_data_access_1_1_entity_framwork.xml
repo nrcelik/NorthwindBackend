@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_core_1_1_data_access_1_1_entity_framwork" kind="namespace">
+    <compoundname>Core::DataAccess::EntityFramwork</compoundname>
+    <innerclass refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4" prot="public">Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork/EfEntitiyRepositoryBase.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

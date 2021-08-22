@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_22abd458a3b1566cdd420707a18ff5d1" kind="dir">
+    <compoundname>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results</compoundname>
+    <innerfile refid="_data_result_8cs">DataResult.cs</innerfile>
+    <innerfile refid="_error_data_result_8cs">ErrorDataResult.cs</innerfile>
+    <innerfile refid="_error_result_8cs">ErrorResult.cs</innerfile>
+    <innerfile refid="_i_data_result_8cs">IDataResult.cs</innerfile>
+    <innerfile refid="_i_result_8cs">IResult.cs</innerfile>
+    <innerfile refid="_result_8cs">Result.cs</innerfile>
+    <innerfile refid="_success_data_result_8cs">SuccessDataResult.cs</innerfile>
+    <innerfile refid="_success_result_8cs">SuccessResult.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/"/>
+  </compounddef>
+</doxygen>

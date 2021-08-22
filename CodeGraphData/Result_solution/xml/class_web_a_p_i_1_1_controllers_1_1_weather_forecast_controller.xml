@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller" kind="class" prot="public">
+    <compoundname>WebAPI::Controllers::WeatherForecastController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a258f44caf66a87462ab67620d9a217f3" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] WebAPI.Controllers.WeatherForecastController.Summaries</definition>
+        <argsstring></argsstring>
+        <name>Summaries</name>
+        <initializer>= new[]
+        {
+            &quot;Freezing&quot;, &quot;Bracing&quot;, &quot;Chilly&quot;, &quot;Cool&quot;, &quot;Mild&quot;, &quot;Warm&quot;, &quot;Balmy&quot;, &quot;Hot&quot;, &quot;Sweltering&quot;, &quot;Scorching&quot;
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" line="14" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a0ece261b4236cbec315ee99a313b1e45" prot="private" static="no" mutable="no">
+        <type>readonly ILogger&lt; <ref refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller" kindref="compound">WeatherForecastController</ref> &gt;</type>
+        <definition>readonly ILogger&lt;WeatherForecastController&gt; WebAPI.Controllers.WeatherForecastController._logger</definition>
+        <argsstring></argsstring>
+        <name>_logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" line="19" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a030c4d2fd2c8b7929f91b57f57140b30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WebAPI.Controllers.WeatherForecastController.WeatherForecastController</definition>
+        <argsstring>(ILogger&lt; WeatherForecastController &gt; logger)</argsstring>
+        <name>WeatherForecastController</name>
+        <param>
+          <type>ILogger&lt; <ref refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller" kindref="compound">WeatherForecastController</ref> &gt;</type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" line="21" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a28aed9ab630c618f954e1342b8489a1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_web_a_p_i_1_1_weather_forecast" kindref="compound">WeatherForecast</ref> &gt;</type>
+        <definition>IEnumerable&lt;WeatherForecast&gt; WebAPI.Controllers.WeatherForecastController.Get</definition>
+        <argsstring>()</argsstring>
+        <name>Get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" line="27" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" bodystart="27" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="125">
+        <label>ControllerBase</label>
+      </node>
+      <node id="124">
+        <label>WebAPI.Controllers.WeatherForecastController</label>
+        <link refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="127">
+        <label>ControllerBase</label>
+      </node>
+      <node id="126">
+        <label>WebAPI.Controllers.WeatherForecastController</label>
+        <link refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" line="13" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/WeatherForecastController.cs" bodystart="12" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a0ece261b4236cbec315ee99a313b1e45" prot="private" virt="non-virtual"><scope>WebAPI::Controllers::WeatherForecastController</scope><name>_logger</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a28aed9ab630c618f954e1342b8489a1c" prot="public" virt="non-virtual"><scope>WebAPI::Controllers::WeatherForecastController</scope><name>Get</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a258f44caf66a87462ab67620d9a217f3" prot="private" virt="non-virtual"><scope>WebAPI::Controllers::WeatherForecastController</scope><name>Summaries</name></member>
+      <member refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a030c4d2fd2c8b7929f91b57f57140b30" prot="public" virt="non-virtual"><scope>WebAPI::Controllers::WeatherForecastController</scope><name>WeatherForecastController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

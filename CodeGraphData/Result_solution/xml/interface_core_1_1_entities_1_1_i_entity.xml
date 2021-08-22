@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_core_1_1_entities_1_1_i_entity" kind="interface" prot="public">
+    <compoundname>Core::Entities::IEntity</compoundname>
+    <derivedcompoundref refid="class_entities_1_1_concrete_1_1_product" prot="public" virt="non-virtual">Entities.Concrete.Product</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="50">
+        <label>Entities.Concrete.Product</label>
+        <link refid="class_entities_1_1_concrete_1_1_product"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>Core.Entities.IEntity</label>
+        <link refid="interface_core_1_1_entities_1_1_i_entity"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Entities/IEntity.cs" line="8" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Entities/IEntity.cs" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

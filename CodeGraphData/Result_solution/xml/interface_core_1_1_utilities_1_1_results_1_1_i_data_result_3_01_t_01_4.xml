@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4" kind="interface" prot="public">
+    <compoundname>Core::Utilities::Results::IDataResult&lt; T &gt;</compoundname>
+    <basecompoundref refid="interface_core_1_1_utilities_1_1_results_1_1_i_result" prot="public" virt="non-virtual">Core.Utilities.Results.IResult</basecompoundref>
+    <derivedcompoundref refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4" prot="public" virt="non-virtual">Core.Utilities.Results.DataResult&lt; T &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4_1abb083dda651aed79c9945a9506abd26e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>T</type>
+        <definition>T Core.Utilities.Results.IDataResult&lt; T &gt;.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/IDataResult.cs" line="9" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/IDataResult.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>Core.Utilities.Results.IDataResult&lt; T &gt;</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>Core.Utilities.Results.ErrorDataResult&lt; T &gt;</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_error_data_result_3_01_t_01_4"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>Core.Utilities.Results.DataResult&lt; T &gt;</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>Core.Utilities.Results.SuccessDataResult&lt; T &gt;</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_success_data_result_3_01_t_01_4"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>IResult</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_result"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="47">
+        <label>Core.Utilities.Results.IDataResult&lt; T &gt;</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>IResult</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_result"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/IDataResult.cs" line="8" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/IDataResult.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4_1abb083dda651aed79c9945a9506abd26e" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::IDataResult&lt; T &gt;</scope><name>Data</name></member>
+      <member refid="interface_core_1_1_utilities_1_1_results_1_1_i_result_1ab336c2e825842e966b58ba60941e04b3" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::IDataResult&lt; T &gt;</scope><name>Message</name></member>
+      <member refid="interface_core_1_1_utilities_1_1_results_1_1_i_result_1a2d881002f1439069aedc444e5160364d" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::IDataResult&lt; T &gt;</scope><name>Success</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

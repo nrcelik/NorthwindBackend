@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_web_a_p_i_1_1_startup" kind="class" prot="public">
+    <compoundname>WebAPI::Startup</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_web_a_p_i_1_1_startup_1a59231d77890fcd1a5225b11b187e7df9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IConfiguration</type>
+        <definition>IConfiguration WebAPI.Startup.Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" line="23" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_web_a_p_i_1_1_startup_1a44031d96ad4286604f407a377905511e" compoundref="_startup_8cs" startline="18" endline="21">WebAPI.Startup.Startup</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_web_a_p_i_1_1_startup_1a44031d96ad4286604f407a377905511e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WebAPI.Startup.Startup</definition>
+        <argsstring>(IConfiguration configuration)</argsstring>
+        <name>Startup</name>
+        <param>
+          <type>IConfiguration</type>
+          <declname>configuration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" line="18" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" bodystart="18" bodyend="21"/>
+        <references refid="class_web_a_p_i_1_1_startup_1a59231d77890fcd1a5225b11b187e7df9" compoundref="_startup_8cs" startline="23">WebAPI.Startup.Configuration</references>
+      </memberdef>
+      <memberdef kind="function" id="class_web_a_p_i_1_1_startup_1a106372d3c15522c351257507a1068957" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WebAPI.Startup.ConfigureServices</definition>
+        <argsstring>(IServiceCollection services)</argsstring>
+        <name>ConfigureServices</name>
+        <param>
+          <type>IServiceCollection</type>
+          <declname>services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" line="26" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_web_a_p_i_1_1_startup_1af79e03d8576fac185cbc4cb4469566fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WebAPI.Startup.Configure</definition>
+        <argsstring>(IApplicationBuilder app, IWebHostEnvironment env)</argsstring>
+        <name>Configure</name>
+        <param>
+          <type>IApplicationBuilder</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>IWebHostEnvironment</type>
+          <declname>env</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" line="32" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" bodystart="32" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" line="17" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Startup.cs" bodystart="16" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_web_a_p_i_1_1_startup_1a59231d77890fcd1a5225b11b187e7df9" prot="public" virt="non-virtual"><scope>WebAPI::Startup</scope><name>Configuration</name></member>
+      <member refid="class_web_a_p_i_1_1_startup_1af79e03d8576fac185cbc4cb4469566fd" prot="public" virt="non-virtual"><scope>WebAPI::Startup</scope><name>Configure</name></member>
+      <member refid="class_web_a_p_i_1_1_startup_1a106372d3c15522c351257507a1068957" prot="public" virt="non-virtual"><scope>WebAPI::Startup</scope><name>ConfigureServices</name></member>
+      <member refid="class_web_a_p_i_1_1_startup_1a44031d96ad4286604f407a377905511e" prot="public" virt="non-virtual"><scope>WebAPI::Startup</scope><name>Startup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_autofac_business_module_8cs" kind="file">
+    <compoundname>AutofacBusinessModule.cs</compoundname>
+    <innerclass refid="class_business_1_1_dependency_resolvers_1_1_autofac_1_1_autofac_business_module" prot="public">Business::DependencyResolvers::Autofac::AutofacBusinessModule</innerclass>
+    <innernamespace refid="namespace_business_1_1_dependency_resolvers_1_1_autofac">Business::DependencyResolvers::Autofac</innernamespace>
+    <innernamespace refid="namespace_autofac">Autofac</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Autofac;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Business.Abstract;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Business.Concrete;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>DataAccess.Abstarct;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>DataAccess.Concrete.EntityFramework;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespace_business_1_1_dependency_resolvers_1_1_autofac" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Business.DependencyResolvers.Autofac</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12" refid="class_business_1_1_dependency_resolvers_1_1_autofac_1_1_autofac_business_module" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_business_1_1_dependency_resolvers_1_1_autofac_1_1_autofac_business_module" kindref="compound">AutofacBusinessModule</ref><sp/>:<sp/>Module</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="class_business_1_1_dependency_resolvers_1_1_autofac_1_1_autofac_business_module_1a00b74517c78ac34fd36f9f8521ae8cba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_business_1_1_dependency_resolvers_1_1_autofac_1_1_autofac_business_module_1a00b74517c78ac34fd36f9f8521ae8cba" kindref="member">Load</ref>(ContainerBuilder<sp/>builder)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>builder.RegisterType&lt;<ref refid="class_business_1_1_concrete_1_1_product_manager" kindref="compound">ProductManager</ref>&gt;().As&lt;IProductService&gt;();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>builder.RegisterType&lt;<ref refid="class_data_access_1_1_concrete_1_1_entity_framework_1_1_ef_product_dal" kindref="compound">EfProductDal</ref>&gt;().As&lt;IProductDal&gt;();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs"/>
+  </compounddef>
+</doxygen>

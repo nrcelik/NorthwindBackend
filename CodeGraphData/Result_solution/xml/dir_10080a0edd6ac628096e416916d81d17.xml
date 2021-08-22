@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_10080a0edd6ac628096e416916d81d17" kind="dir">
+    <compoundname>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend</compoundname>
+    <innerdir refid="dir_ecb40f6ab8435659b5f1919d7674f4af">C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business</innerdir>
+    <innerdir refid="dir_35ff9e7dbf6b3ac0e4e6fc9cf3a903ba">C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core</innerdir>
+    <innerdir refid="dir_e8f88dd40703034439c06e81c524b2a4">C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess</innerdir>
+    <innerdir refid="dir_72a6e17df1f2414e4b2725c0190d6777">C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Entities</innerdir>
+    <innerdir refid="dir_4abdf85590c980ea85ead5ed2a91f212">C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4" kind="interface" prot="public">
+    <compoundname>Core::DataAccess::IEntityRepository&lt; T &gt;</compoundname>
+    <derivedcompoundref refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4" prot="public" virt="non-virtual">Core.DataAccess.EntityFramwork.EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1ac883d7e79c21d552d662d712516f6782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T Core.DataAccess.IEntityRepository&lt; T &gt;.Get</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; filter)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/IEntityRepository.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a53bccf04d735617326ccb1b75cc3ad72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IList&lt; T &gt;</type>
+        <definition>IList&lt;T&gt; Core.DataAccess.IEntityRepository&lt; T &gt;.GetList</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; filter=null)</argsstring>
+        <name>GetList</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>filter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/IEntityRepository.cs" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a7deae12be937a2ebc786d40ca53498c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core.DataAccess.IEntityRepository&lt; T &gt;.Add</definition>
+        <argsstring>(T entity)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>T</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/IEntityRepository.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a37ec4ddcc3c566948af0fde562360b00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core.DataAccess.IEntityRepository&lt; T &gt;.Update</definition>
+        <argsstring>(T entitiy)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>T</type>
+          <declname>entitiy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/IEntityRepository.cs" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1aaeefaae841db910423f4fe6be26812b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core.DataAccess.IEntityRepository&lt; T &gt;.Delete</definition>
+        <argsstring>(T entitiy)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>T</type>
+          <declname>entitiy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/IEntityRepository.cs" line="15" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="52">
+        <label>Core.DataAccess.IEntityRepository&lt; T &gt;</label>
+        <link refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4"/>
+      </node>
+      <node id="53">
+        <label>Core.DataAccess.EntityFramwork.EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</label>
+        <link refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/IEntityRepository.cs" line="10" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/IEntityRepository.cs" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a7deae12be937a2ebc786d40ca53498c2" prot="public" virt="non-virtual"><scope>Core::DataAccess::IEntityRepository&lt; T &gt;</scope><name>Add</name></member>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1aaeefaae841db910423f4fe6be26812b7" prot="public" virt="non-virtual"><scope>Core::DataAccess::IEntityRepository&lt; T &gt;</scope><name>Delete</name></member>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1ac883d7e79c21d552d662d712516f6782" prot="public" virt="non-virtual"><scope>Core::DataAccess::IEntityRepository&lt; T &gt;</scope><name>Get</name></member>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a53bccf04d735617326ccb1b75cc3ad72" prot="public" virt="non-virtual"><scope>Core::DataAccess::IEntityRepository&lt; T &gt;</scope><name>GetList</name></member>
+      <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a37ec4ddcc3c566948af0fde562360b00" prot="public" virt="non-virtual"><scope>Core::DataAccess::IEntityRepository&lt; T &gt;</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

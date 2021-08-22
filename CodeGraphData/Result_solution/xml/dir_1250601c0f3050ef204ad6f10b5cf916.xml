@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1250601c0f3050ef204ad6f10b5cf916" kind="dir">
+    <compoundname>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Concrete</compoundname>
+    <innerdir refid="dir_9b7b926eaf7b98ce97bb92a0d4656b5f">C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Concrete/EntityFramework</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Concrete/"/>
+  </compounddef>
+</doxygen>

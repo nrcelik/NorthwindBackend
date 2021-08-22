@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_business_1_1_dependency_resolvers_1_1_autofac_1_1_autofac_business_module" kind="class"><name>Business::DependencyResolvers::Autofac::AutofacBusinessModule</name>
+    <member refid="class_business_1_1_dependency_resolvers_1_1_autofac_1_1_autofac_business_module_1a00b74517c78ac34fd36f9f8521ae8cba" kind="function"><name>Load</name></member>
+  </compound>
+  <compound refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4" kind="class"><name>Core::Utilities::Results::DataResult&lt; T &gt;</name>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4_1a67d9b04d184d3039460cbf265a550ca4" kind="property"><name>Data</name></member>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4_1af53bebeeacc7b034367b16db98f2cb3e" kind="function"><name>DataResult</name></member>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4_1a364dffaf4a9e0712f504d4011818c7a4" kind="function"><name>DataResult</name></member>
+  </compound>
+  <compound refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4" kind="class"><name>Core::DataAccess::EntityFramwork::EfEntitiyRepositoryBase&lt; TEntity, TContext &gt;</name>
+    <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a89f86433cb0a80a62551821e7be816eb" kind="function"><name>Add</name></member>
+    <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a707220f474f0acd7a3d875a829ba9c88" kind="function"><name>Delete</name></member>
+    <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1afb68c896311f18aaaf9049cc6424f41f" kind="function"><name>Get</name></member>
+    <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a19cde6ebc7ff567a0ac5f9fb5c5c3a9d" kind="function"><name>GetList</name></member>
+    <member refid="class_core_1_1_data_access_1_1_entity_framwork_1_1_ef_entitiy_repository_base_3_01_t_entity_00_01_t_context_01_4_1a9fc02f86ea7060085dad087743196d98" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_data_access_1_1_concrete_1_1_entity_framework_1_1_ef_product_dal" kind="class"><name>DataAccess::Concrete::EntityFramework::EfProductDal</name>
+  </compound>
+  <compound refid="class_core_1_1_utilities_1_1_results_1_1_error_data_result_3_01_t_01_4" kind="class"><name>Core::Utilities::Results::ErrorDataResult&lt; T &gt;</name>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_error_data_result_3_01_t_01_4_1a5259272cb2ce90668ae4963de2dba4e4" kind="function"><name>ErrorDataResult</name></member>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_error_data_result_3_01_t_01_4_1af80889412a24b10434d1068c942492bb" kind="function"><name>ErrorDataResult</name></member>
+  </compound>
+  <compound refid="class_core_1_1_utilities_1_1_results_1_1_error_result" kind="class"><name>Core::Utilities::Results::ErrorResult</name>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_error_result_1ace4a27abce87339716d6a74b63825571" kind="function"><name>ErrorResult</name></member>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_error_result_1abe9811acb80152cd6f5664331ed27307" kind="function"><name>ErrorResult</name></member>
+  </compound>
+  <compound refid="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4" kind="interface"><name>Core::Utilities::Results::IDataResult&lt; T &gt;</name>
+    <member refid="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4_1abb083dda651aed79c9945a9506abd26e" kind="property"><name>Data</name></member>
+  </compound>
+  <compound refid="interface_core_1_1_entities_1_1_i_entity" kind="interface"><name>Core::Entities::IEntity</name>
+  </compound>
+  <compound refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4" kind="interface"><name>Core::DataAccess::IEntityRepository&lt; T &gt;</name>
+    <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1ac883d7e79c21d552d662d712516f6782" kind="function"><name>Get</name></member>
+    <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a53bccf04d735617326ccb1b75cc3ad72" kind="function"><name>GetList</name></member>
+    <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a7deae12be937a2ebc786d40ca53498c2" kind="function"><name>Add</name></member>
+    <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1a37ec4ddcc3c566948af0fde562360b00" kind="function"><name>Update</name></member>
+    <member refid="interface_core_1_1_data_access_1_1_i_entity_repository_3_01_t_01_4_1aaeefaae841db910423f4fe6be26812b7" kind="function"><name>Delete</name></member>
+  </compound>
+  <compound refid="interface_data_access_1_1_abstarct_1_1_i_product_dal" kind="interface"><name>DataAccess::Abstarct::IProductDal</name>
+  </compound>
+  <compound refid="interface_business_1_1_abstract_1_1_i_product_service" kind="interface"><name>Business::Abstract::IProductService</name>
+    <member refid="interface_business_1_1_abstract_1_1_i_product_service_1ab58c1328901b750ad98878247ae03272" kind="function"><name>GetById</name></member>
+    <member refid="interface_business_1_1_abstract_1_1_i_product_service_1afe3f369b6e3adad3cb9f5abd7f55ccc8" kind="function"><name>GetList</name></member>
+    <member refid="interface_business_1_1_abstract_1_1_i_product_service_1aecef1dc94cc3a96fd5b1c6206c631bb5" kind="function"><name>GetListByCategory</name></member>
+    <member refid="interface_business_1_1_abstract_1_1_i_product_service_1aa44d5e7d42eff7805bb120f36c796396" kind="function"><name>Add</name></member>
+    <member refid="interface_business_1_1_abstract_1_1_i_product_service_1a122d845db4a059026afaabef5cdb2136" kind="function"><name>Delete</name></member>
+    <member refid="interface_business_1_1_abstract_1_1_i_product_service_1a1d1c7949f938847bbe06ceae27e19923" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_core_1_1_utilities_1_1_results_1_1_i_result" kind="interface"><name>Core::Utilities::Results::IResult</name>
+    <member refid="interface_core_1_1_utilities_1_1_results_1_1_i_result_1a2d881002f1439069aedc444e5160364d" kind="property"><name>Success</name></member>
+    <member refid="interface_core_1_1_utilities_1_1_results_1_1_i_result_1ab336c2e825842e966b58ba60941e04b3" kind="property"><name>Message</name></member>
+  </compound>
+  <compound refid="class_business_1_1_contants_1_1_messages" kind="class"><name>Business::Contants::Messages</name>
+    <member refid="class_business_1_1_contants_1_1_messages_1a03139cbb28773a301355656e6ea44229" kind="variable"><name>ProductAdded</name></member>
+    <member refid="class_business_1_1_contants_1_1_messages_1a7ef74365773d6540061fe9b6acfd8ee8" kind="variable"><name>ProductDeleted</name></member>
+    <member refid="class_business_1_1_contants_1_1_messages_1a3f284bacbf6dfbf6c36c16c828896523" kind="variable"><name>ProductUpdated</name></member>
+  </compound>
+  <compound refid="class_data_access_1_1_concrete_1_1_entity_framework_1_1_northwind_context" kind="class"><name>DataAccess::Concrete::EntityFramework::NorthwindContext</name>
+    <member refid="class_data_access_1_1_concrete_1_1_entity_framework_1_1_northwind_context_1abc3fb561c2e6756051efe7a3d5ce5cac" kind="property"><name>Products</name></member>
+    <member refid="class_data_access_1_1_concrete_1_1_entity_framework_1_1_northwind_context_1a34d95ec3f1a81c1846d192bf09eca427" kind="function"><name>OnConfiguring</name></member>
+  </compound>
+  <compound refid="class_entities_1_1_concrete_1_1_product" kind="class"><name>Entities::Concrete::Product</name>
+    <member refid="class_entities_1_1_concrete_1_1_product_1a55362611e88360665c6306bdb900be90" kind="property"><name>ProductId</name></member>
+    <member refid="class_entities_1_1_concrete_1_1_product_1a07d65bfb52045a7df1e1c5541b2ac64a" kind="property"><name>ProductName</name></member>
+    <member refid="class_entities_1_1_concrete_1_1_product_1afe6d403990c744d54778e670859bd833" kind="property"><name>CategoryId</name></member>
+    <member refid="class_entities_1_1_concrete_1_1_product_1a86219ad62d1e3c712e721cd9abc93cbf" kind="property"><name>QuantityPerUnit</name></member>
+    <member refid="class_entities_1_1_concrete_1_1_product_1a8d235f3c813fb71e174b39945d3ff683" kind="property"><name>UnitPrice</name></member>
+    <member refid="class_entities_1_1_concrete_1_1_product_1a29e41abdd3d232f6cfeedae8ce8cbfcd" kind="property"><name>UnitsInStock</name></member>
+  </compound>
+  <compound refid="class_business_1_1_concrete_1_1_product_manager" kind="class"><name>Business::Concrete::ProductManager</name>
+    <member refid="class_business_1_1_concrete_1_1_product_manager_1aa6c71712626771bfbd7d4e66e7e816bb" kind="variable"><name>_productDal</name></member>
+    <member refid="class_business_1_1_concrete_1_1_product_manager_1a464af614d947fa687b6b2ec36c7deef5" kind="function"><name>ProductManager</name></member>
+    <member refid="class_business_1_1_concrete_1_1_product_manager_1a542f3909d4dada51bbcce69e45c7eec9" kind="function"><name>Add</name></member>
+    <member refid="class_business_1_1_concrete_1_1_product_manager_1a7a2b2e7b9e9bc9000da05aa7c73f6e9d" kind="function"><name>Delete</name></member>
+    <member refid="class_business_1_1_concrete_1_1_product_manager_1aa2f9e7e991f3a6706f79db510179c14d" kind="function"><name>Update</name></member>
+    <member refid="class_business_1_1_concrete_1_1_product_manager_1a20e2fa2f6822c34625c6c382812d3d55" kind="function"><name>GetById</name></member>
+    <member refid="class_business_1_1_concrete_1_1_product_manager_1a96a8290f9da16fdf91350a1e06a0c141" kind="function"><name>GetList</name></member>
+    <member refid="class_business_1_1_concrete_1_1_product_manager_1ae6d620a00724e37ebe137bbd10175469" kind="function"><name>GetListByCategory</name></member>
+  </compound>
+  <compound refid="class_web_a_p_i_1_1_controllers_1_1_products_controller" kind="class"><name>WebAPI::Controllers::ProductsController</name>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a6d99cd487c7249063904eba22d66d8a4" kind="variable"><name>_productService</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a10ef5dd1bd49dd3c072c87ee5e968cd0" kind="function"><name>ProductsController</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1aaa28a510bca1b69e177df80de2201960" kind="function"><name>GetList</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1ab30b7fda4b5b6168b7f0720a3ff0de68" kind="function"><name>GetListByCategory</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a842e91941a927d1cd48c7235eff17de2" kind="function"><name>GetById</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a7186ce33697410a84748e3e8de3c0bfa" kind="function"><name>Add</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1a14b8fa40d1aebe1a5f9ab2d52b8eda4e" kind="function"><name>Update</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_products_controller_1acdbc72da19264ae7d07ed6129cf6ca39" kind="function"><name>Delete</name></member>
+  </compound>
+  <compound refid="class_web_a_p_i_1_1_program" kind="class"><name>WebAPI::Program</name>
+    <member refid="class_web_a_p_i_1_1_program_1a063878342de0295b72d62bf7302eff20" kind="function"><name>Main</name></member>
+    <member refid="class_web_a_p_i_1_1_program_1a9d0362f57b94c1f561dfb74bf1c5dcf7" kind="function"><name>CreateHostBuilder</name></member>
+  </compound>
+  <compound refid="class_core_1_1_utilities_1_1_results_1_1_result" kind="class"><name>Core::Utilities::Results::Result</name>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a4830234eee139e72b9f6bfbe601b83b1" kind="property"><name>Success</name></member>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a01315fc0b0f08dca8092356cae8b20a9" kind="property"><name>Message</name></member>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a92a5247de0a3061674785168b3e5cf95" kind="function"><name>Result</name></member>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a9a571a416f385fbf625fd014f1199af4" kind="function"><name>Result</name></member>
+  </compound>
+  <compound refid="class_web_a_p_i_1_1_startup" kind="class"><name>WebAPI::Startup</name>
+    <member refid="class_web_a_p_i_1_1_startup_1a59231d77890fcd1a5225b11b187e7df9" kind="property"><name>Configuration</name></member>
+    <member refid="class_web_a_p_i_1_1_startup_1a44031d96ad4286604f407a377905511e" kind="function"><name>Startup</name></member>
+    <member refid="class_web_a_p_i_1_1_startup_1a106372d3c15522c351257507a1068957" kind="function"><name>ConfigureServices</name></member>
+    <member refid="class_web_a_p_i_1_1_startup_1af79e03d8576fac185cbc4cb4469566fd" kind="function"><name>Configure</name></member>
+  </compound>
+  <compound refid="class_core_1_1_utilities_1_1_results_1_1_success_data_result_3_01_t_01_4" kind="class"><name>Core::Utilities::Results::SuccessDataResult&lt; T &gt;</name>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_success_data_result_3_01_t_01_4_1aa346cb53de6a05bee2659409cbd27a1a" kind="function"><name>SuccessDataResult</name></member>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_success_data_result_3_01_t_01_4_1a2bb0b5840faeb019dd9eabf23eacfef7" kind="function"><name>SuccessDataResult</name></member>
+  </compound>
+  <compound refid="class_core_1_1_utilities_1_1_results_1_1_success_result" kind="class"><name>Core::Utilities::Results::SuccessResult</name>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_success_result_1a4ca7256e0bde1c77b2db081f8e58bcb9" kind="function"><name>SuccessResult</name></member>
+    <member refid="class_core_1_1_utilities_1_1_results_1_1_success_result_1a990a714293743cf34aa31a9d61f98fd2" kind="function"><name>SuccessResult</name></member>
+  </compound>
+  <compound refid="class_web_a_p_i_1_1_weather_forecast" kind="class"><name>WebAPI::WeatherForecast</name>
+    <member refid="class_web_a_p_i_1_1_weather_forecast_1a5cc70faba6624e6cb213963e9f936b95" kind="property"><name>Date</name></member>
+    <member refid="class_web_a_p_i_1_1_weather_forecast_1ae126062f15bbe2003e58f0d532fa9ef2" kind="property"><name>TemperatureC</name></member>
+    <member refid="class_web_a_p_i_1_1_weather_forecast_1aa9331bfe1c075006a48816b519330fca" kind="property"><name>Summary</name></member>
+    <member refid="class_web_a_p_i_1_1_weather_forecast_1a8d7760a2054d797e84e8257093519bda" kind="variable"><name>TemperatureF</name></member>
+  </compound>
+  <compound refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller" kind="class"><name>WebAPI::Controllers::WeatherForecastController</name>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a258f44caf66a87462ab67620d9a217f3" kind="variable"><name>Summaries</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a0ece261b4236cbec315ee99a313b1e45" kind="variable"><name>_logger</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a030c4d2fd2c8b7929f91b57f57140b30" kind="function"><name>WeatherForecastController</name></member>
+    <member refid="class_web_a_p_i_1_1_controllers_1_1_weather_forecast_controller_1a28aed9ab630c618f954e1342b8489a1c" kind="function"><name>Get</name></member>
+  </compound>
+  <compound refid="namespace_autofac" kind="namespace"><name>Autofac</name>
+  </compound>
+  <compound refid="namespace_autofac_1_1_extensions_1_1_dependency_injection" kind="namespace"><name>Autofac::Extensions::DependencyInjection</name>
+  </compound>
+  <compound refid="namespace_business" kind="namespace"><name>Business</name>
+  </compound>
+  <compound refid="namespace_business_1_1_abstract" kind="namespace"><name>Business::Abstract</name>
+  </compound>
+  <compound refid="namespace_business_1_1_concrete" kind="namespace"><name>Business::Concrete</name>
+  </compound>
+  <compound refid="namespace_business_1_1_contants" kind="namespace"><name>Business::Contants</name>
+  </compound>
+  <compound refid="namespace_business_1_1_dependency_resolvers" kind="namespace"><name>Business::DependencyResolvers</name>
+  </compound>
+  <compound refid="namespace_business_1_1_dependency_resolvers_1_1_autofac" kind="namespace"><name>Business::DependencyResolvers::Autofac</name>
+  </compound>
+  <compound refid="namespace_core" kind="namespace"><name>Core</name>
+  </compound>
+  <compound refid="namespace_core_1_1_data_access" kind="namespace"><name>Core::DataAccess</name>
+  </compound>
+  <compound refid="namespace_core_1_1_data_access_1_1_entity_framwork" kind="namespace"><name>Core::DataAccess::EntityFramwork</name>
+  </compound>
+  <compound refid="namespace_core_1_1_entities" kind="namespace"><name>Core::Entities</name>
+  </compound>
+  <compound refid="namespace_core_1_1_utilities" kind="namespace"><name>Core::Utilities</name>
+  </compound>
+  <compound refid="namespace_core_1_1_utilities_1_1_results" kind="namespace"><name>Core::Utilities::Results</name>
+  </compound>
+  <compound refid="namespace_data_access" kind="namespace"><name>DataAccess</name>
+  </compound>
+  <compound refid="namespace_data_access_1_1_abstarct" kind="namespace"><name>DataAccess::Abstarct</name>
+  </compound>
+  <compound refid="namespace_data_access_1_1_concrete" kind="namespace"><name>DataAccess::Concrete</name>
+  </compound>
+  <compound refid="namespace_data_access_1_1_concrete_1_1_entity_framework" kind="namespace"><name>DataAccess::Concrete::EntityFramework</name>
+  </compound>
+  <compound refid="namespace_entities" kind="namespace"><name>Entities</name>
+  </compound>
+  <compound refid="namespace_entities_1_1_concrete" kind="namespace"><name>Entities::Concrete</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_builder" kind="namespace"><name>Microsoft::AspNetCore::Builder</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_hosting" kind="namespace"><name>Microsoft::AspNetCore::Hosting</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_http" kind="namespace"><name>Microsoft::AspNetCore::Http</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_https_policy" kind="namespace"><name>Microsoft::AspNetCore::HttpsPolicy</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_mvc" kind="namespace"><name>Microsoft::AspNetCore::Mvc</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_entity_framework_core" kind="namespace"><name>Microsoft::EntityFrameworkCore</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_configuration" kind="namespace"><name>Microsoft::Extensions::Configuration</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_dependency_injection" kind="namespace"><name>Microsoft::Extensions::DependencyInjection</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_hosting" kind="namespace"><name>Microsoft::Extensions::Hosting</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_logging" kind="namespace"><name>Microsoft::Extensions::Logging</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq_1_1_expressions" kind="namespace"><name>System::Linq::Expressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_web_a_p_i" kind="namespace"><name>WebAPI</name>
+  </compound>
+  <compound refid="namespace_web_a_p_i_1_1_controllers" kind="namespace"><name>WebAPI::Controllers</name>
+  </compound>
+  <compound refid="_i_product_service_8cs" kind="file"><name>IProductService.cs</name>
+  </compound>
+  <compound refid="_product_manager_8cs" kind="file"><name>ProductManager.cs</name>
+  </compound>
+  <compound refid="_messages_8cs" kind="file"><name>Messages.cs</name>
+  </compound>
+  <compound refid="_autofac_business_module_8cs" kind="file"><name>AutofacBusinessModule.cs</name>
+  </compound>
+  <compound refid="_ef_entitiy_repository_base_8cs" kind="file"><name>EfEntitiyRepositoryBase.cs</name>
+  </compound>
+  <compound refid="_i_entity_repository_8cs" kind="file"><name>IEntityRepository.cs</name>
+  </compound>
+  <compound refid="_i_entity_8cs" kind="file"><name>IEntity.cs</name>
+  </compound>
+  <compound refid="_data_result_8cs" kind="file"><name>DataResult.cs</name>
+  </compound>
+  <compound refid="_error_data_result_8cs" kind="file"><name>ErrorDataResult.cs</name>
+  </compound>
+  <compound refid="_error_result_8cs" kind="file"><name>ErrorResult.cs</name>
+  </compound>
+  <compound refid="_i_data_result_8cs" kind="file"><name>IDataResult.cs</name>
+  </compound>
+  <compound refid="_i_result_8cs" kind="file"><name>IResult.cs</name>
+  </compound>
+  <compound refid="_result_8cs" kind="file"><name>Result.cs</name>
+  </compound>
+  <compound refid="_success_data_result_8cs" kind="file"><name>SuccessDataResult.cs</name>
+  </compound>
+  <compound refid="_success_result_8cs" kind="file"><name>SuccessResult.cs</name>
+  </compound>
+  <compound refid="_i_product_dal_8cs" kind="file"><name>IProductDal.cs</name>
+  </compound>
+  <compound refid="_ef_product_dal_8cs" kind="file"><name>EfProductDal.cs</name>
+  </compound>
+  <compound refid="_northwind_context_8cs" kind="file"><name>NorthwindContext.cs</name>
+  </compound>
+  <compound refid="_product_8cs" kind="file"><name>Product.cs</name>
+  </compound>
+  <compound refid="_products_controller_8cs" kind="file"><name>ProductsController.cs</name>
+  </compound>
+  <compound refid="_weather_forecast_controller_8cs" kind="file"><name>WeatherForecastController.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_startup_8cs" kind="file"><name>Startup.cs</name>
+  </compound>
+  <compound refid="_weather_forecast_8cs" kind="file"><name>WeatherForecast.cs</name>
+  </compound>
+  <compound refid="dir_813167f8c839c1e5afbc34664a8e782e" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Abstract</name>
+  </compound>
+  <compound refid="dir_dbe84fc9a86b2ea9a8fc06336c4f29d6" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Abstract</name>
+  </compound>
+  <compound refid="dir_a36159c43795fa2777d4ad4d0c48b52b" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/DependencyResolvers/Autofac</name>
+  </compound>
+  <compound refid="dir_ecb40f6ab8435659b5f1919d7674f4af" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business</name>
+  </compound>
+  <compound refid="dir_7738b0afcb93e91413d217164dbd167c" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Entities/Concrete</name>
+  </compound>
+  <compound refid="dir_1250601c0f3050ef204ad6f10b5cf916" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Concrete</name>
+  </compound>
+  <compound refid="dir_75ea297c7b3a76aa60c59211879f88af" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete</name>
+  </compound>
+  <compound refid="dir_e1fa4fd104e26632cd03d3151260c634" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Contants</name>
+  </compound>
+  <compound refid="dir_18385e3b52f91629744800a33dd2e166" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers</name>
+  </compound>
+  <compound refid="dir_35ff9e7dbf6b3ac0e4e6fc9cf3a903ba" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core</name>
+  </compound>
+  <compound refid="dir_e8f88dd40703034439c06e81c524b2a4" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess</name>
+  </compound>
+  <compound refid="dir_636694c74a12c8d733d048539cbdd857" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess</name>
+  </compound>
+  <compound refid="dir_9df368afb319a5ca027f76146eea7816" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/DependencyResolvers</name>
+  </compound>
+  <compound refid="dir_72a6e17df1f2414e4b2725c0190d6777" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Entities</name>
+  </compound>
+  <compound refid="dir_5e92bd4de3b3df62694f57164bf802e8" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Entities</name>
+  </compound>
+  <compound refid="dir_9b7b926eaf7b98ce97bb92a0d4656b5f" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Concrete/EntityFramework</name>
+  </compound>
+  <compound refid="dir_d1f74cf36ab9bc06aa0c9bd451cc58c6" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/DataAccess/EntityFramwork</name>
+  </compound>
+  <compound refid="dir_f450bb7bef7fff5af9c3ed3c50a9ce43" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo</name>
+  </compound>
+  <compound refid="dir_10080a0edd6ac628096e416916d81d17" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend</name>
+  </compound>
+  <compound refid="dir_390f1079ff710e6d6ec1a9e7ff25eb42" kind="dir"><name>C:/Users/nr-cl</name>
+  </compound>
+  <compound refid="dir_012a6c240412e1183ee0b3cd069d91fb" kind="dir"><name>C:/Users/nr-cl/source/repos</name>
+  </compound>
+  <compound refid="dir_22abd458a3b1566cdd420707a18ff5d1" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results</name>
+  </compound>
+  <compound refid="dir_4bf622b753c4fd4ae563ec58f5c72e45" kind="dir"><name>C:/Users/nr-cl/source</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+  <compound refid="dir_50f9560af1f90add5267c051a65ffd23" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities</name>
+  </compound>
+  <compound refid="dir_4abdf85590c980ea85ead5ed2a91f212" kind="dir"><name>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI</name>
+  </compound>
+</doxygenindex>

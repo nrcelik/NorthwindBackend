@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f450bb7bef7fff5af9c3ed3c50a9ce43" kind="dir">
+    <compoundname>C:/Users/nr-cl/source/repos/NetCore30Demo</compoundname>
+    <innerdir refid="dir_10080a0edd6ac628096e416916d81d17">C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/"/>
+  </compounddef>
+</doxygen>

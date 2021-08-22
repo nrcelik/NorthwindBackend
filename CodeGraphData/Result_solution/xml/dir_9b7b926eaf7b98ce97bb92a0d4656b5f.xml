@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_9b7b926eaf7b98ce97bb92a0d4656b5f" kind="dir">
+    <compoundname>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Concrete/EntityFramework</compoundname>
+    <innerfile refid="_ef_product_dal_8cs">EfProductDal.cs</innerfile>
+    <innerfile refid="_northwind_context_8cs">NorthwindContext.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Concrete/EntityFramework/"/>
+  </compounddef>
+</doxygen>

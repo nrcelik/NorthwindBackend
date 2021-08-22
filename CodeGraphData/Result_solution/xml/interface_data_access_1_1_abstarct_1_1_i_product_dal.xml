@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_data_access_1_1_abstarct_1_1_i_product_dal" kind="interface" prot="public">
+    <compoundname>DataAccess::Abstarct::IProductDal</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEntityRepository&lt; Product &gt;</basecompoundref>
+    <derivedcompoundref refid="class_data_access_1_1_concrete_1_1_entity_framework_1_1_ef_product_dal" prot="public" virt="non-virtual">DataAccess.Concrete.EntityFramework.EfProductDal</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="57">
+        <label>DataAccess.Concrete.EntityFramework.EfProductDal</label>
+        <link refid="class_data_access_1_1_concrete_1_1_entity_framework_1_1_ef_product_dal"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>IEntityRepository&lt; Product &gt;</label>
+      </node>
+      <node id="55">
+        <label>DataAccess.Abstarct.IProductDal</label>
+        <link refid="interface_data_access_1_1_abstarct_1_1_i_product_dal"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="59">
+        <label>IEntityRepository&lt; Product &gt;</label>
+      </node>
+      <node id="58">
+        <label>DataAccess.Abstarct.IProductDal</label>
+        <link refid="interface_data_access_1_1_abstarct_1_1_i_product_dal"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Abstract/IProductDal.cs" line="10" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Abstract/IProductDal.cs" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

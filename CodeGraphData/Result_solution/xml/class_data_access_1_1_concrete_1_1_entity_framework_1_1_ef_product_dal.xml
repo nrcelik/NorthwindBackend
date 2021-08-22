@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_data_access_1_1_concrete_1_1_entity_framework_1_1_ef_product_dal" kind="class" prot="public">
+    <compoundname>DataAccess::Concrete::EntityFramework::EfProductDal</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EfEntitiyRepositoryBase&lt; Product, NorthwindContext &gt;</basecompoundref>
+    <basecompoundref refid="interface_data_access_1_1_abstarct_1_1_i_product_dal" prot="public" virt="non-virtual">DataAccess.Abstarct.IProductDal</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>IProductDal</label>
+        <link refid="interface_data_access_1_1_abstarct_1_1_i_product_dal"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>DataAccess.Concrete.EntityFramework.EfProductDal</label>
+        <link refid="class_data_access_1_1_concrete_1_1_entity_framework_1_1_ef_product_dal"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>EfEntitiyRepositoryBase&lt; Product, NorthwindContext &gt;</label>
+      </node>
+      <node id="21">
+        <label>IEntityRepository&lt; Product &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="24">
+        <label>IProductDal</label>
+        <link refid="interface_data_access_1_1_abstarct_1_1_i_product_dal"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>DataAccess.Concrete.EntityFramework.EfProductDal</label>
+        <link refid="class_data_access_1_1_concrete_1_1_entity_framework_1_1_ef_product_dal"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>EfEntitiyRepositoryBase&lt; Product, NorthwindContext &gt;</label>
+      </node>
+      <node id="25">
+        <label>IEntityRepository&lt; Product &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Concrete/EntityFramework/EfProductDal.cs" line="12" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/DataAccess/Concrete/EntityFramework/EfProductDal.cs" bodystart="11" bodyend="14"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

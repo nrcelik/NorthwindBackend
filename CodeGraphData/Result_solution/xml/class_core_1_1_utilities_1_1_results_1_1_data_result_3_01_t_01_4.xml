@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>Core::Utilities::Results::DataResult&lt; T &gt;</compoundname>
+    <basecompoundref refid="class_core_1_1_utilities_1_1_results_1_1_result" prot="public" virt="non-virtual">Core.Utilities.Results.Result</basecompoundref>
+    <basecompoundref refid="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4" prot="public" virt="non-virtual">Core.Utilities.Results.IDataResult&lt; T &gt;</basecompoundref>
+    <derivedcompoundref refid="class_core_1_1_utilities_1_1_results_1_1_error_data_result_3_01_t_01_4" prot="public" virt="non-virtual">Core.Utilities.Results.ErrorDataResult&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_utilities_1_1_results_1_1_success_data_result_3_01_t_01_4" prot="public" virt="non-virtual">Core.Utilities.Results.SuccessDataResult&lt; T &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4_1a67d9b04d184d3039460cbf265a550ca4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>T</type>
+        <definition>T Core.Utilities.Results.DataResult&lt; T &gt;.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/DataResult.cs" line="19" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/DataResult.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4_1af53bebeeacc7b034367b16db98f2cb3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Core.Utilities.Results.DataResult&lt; T &gt;.DataResult</definition>
+        <argsstring>(T data, bool success, string message)</argsstring>
+        <name>DataResult</name>
+        <param>
+          <type>T</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/DataResult.cs" line="10" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/DataResult.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4_1a364dffaf4a9e0712f504d4011818c7a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Core.Utilities.Results.DataResult&lt; T &gt;.DataResult</definition>
+        <argsstring>(T data, bool success)</argsstring>
+        <name>DataResult</name>
+        <param>
+          <type>T</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>success</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/DataResult.cs" line="14" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/DataResult.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>IDataResult&lt; T &gt;</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Core.Utilities.Results.ErrorDataResult&lt; T &gt;</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_error_data_result_3_01_t_01_4"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Result</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_result"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Core.Utilities.Results.DataResult&lt; T &gt;</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Core.Utilities.Results.SuccessDataResult&lt; T &gt;</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_success_data_result_3_01_t_01_4"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IResult</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_result"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>IDataResult&lt; T &gt;</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_data_result_3_01_t_01_4"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Result</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_result"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Core.Utilities.Results.DataResult&lt; T &gt;</label>
+        <link refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>IResult</label>
+        <link refid="interface_core_1_1_utilities_1_1_results_1_1_i_result"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/DataResult.cs" line="8" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Core/Utilities/Results/DataResult.cs" bodystart="7" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4_1a67d9b04d184d3039460cbf265a550ca4" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::DataResult&lt; T &gt;</scope><name>Data</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4_1af53bebeeacc7b034367b16db98f2cb3e" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::DataResult&lt; T &gt;</scope><name>DataResult</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_data_result_3_01_t_01_4_1a364dffaf4a9e0712f504d4011818c7a4" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::DataResult&lt; T &gt;</scope><name>DataResult</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a01315fc0b0f08dca8092356cae8b20a9" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::DataResult&lt; T &gt;</scope><name>Message</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a92a5247de0a3061674785168b3e5cf95" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::DataResult&lt; T &gt;</scope><name>Result</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a9a571a416f385fbf625fd014f1199af4" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::DataResult&lt; T &gt;</scope><name>Result</name></member>
+      <member refid="class_core_1_1_utilities_1_1_results_1_1_result_1a4830234eee139e72b9f6bfbe601b83b1" prot="public" virt="non-virtual"><scope>Core::Utilities::Results::DataResult&lt; T &gt;</scope><name>Success</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

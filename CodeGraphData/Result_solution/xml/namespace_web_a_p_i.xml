@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_web_a_p_i" kind="namespace">
+    <compoundname>WebAPI</compoundname>
+    <innerclass refid="class_web_a_p_i_1_1_program" prot="public">WebAPI::Program</innerclass>
+    <innerclass refid="class_web_a_p_i_1_1_startup" prot="public">WebAPI::Startup</innerclass>
+    <innerclass refid="class_web_a_p_i_1_1_weather_forecast" prot="public">WebAPI::WeatherForecast</innerclass>
+    <innernamespace refid="namespace_web_a_p_i_1_1_controllers">WebAPI::Controllers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

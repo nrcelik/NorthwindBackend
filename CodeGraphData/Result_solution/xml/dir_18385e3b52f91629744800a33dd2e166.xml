@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_18385e3b52f91629744800a33dd2e166" kind="dir">
+    <compoundname>C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers</compoundname>
+    <innerfile refid="_products_controller_8cs">ProductsController.cs</innerfile>
+    <innerfile refid="_weather_forecast_controller_8cs">WeatherForecastController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/WebAPI/Controllers/"/>
+  </compounddef>
+</doxygen>

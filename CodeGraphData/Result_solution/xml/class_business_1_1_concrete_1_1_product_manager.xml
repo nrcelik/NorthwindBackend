@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_business_1_1_concrete_1_1_product_manager" kind="class" prot="public">
+    <compoundname>Business::Concrete::ProductManager</compoundname>
+    <basecompoundref refid="interface_business_1_1_abstract_1_1_i_product_service" prot="public" virt="non-virtual">Business.Abstract.IProductService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_business_1_1_concrete_1_1_product_manager_1aa6c71712626771bfbd7d4e66e7e816bb" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_data_access_1_1_abstarct_1_1_i_product_dal" kindref="compound">IProductDal</ref></type>
+        <definition>IProductDal Business.Concrete.ProductManager._productDal</definition>
+        <argsstring></argsstring>
+        <name>_productDal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" line="15" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_business_1_1_concrete_1_1_product_manager_1a464af614d947fa687b6b2ec36c7deef5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Business.Concrete.ProductManager.ProductManager</definition>
+        <argsstring>(IProductDal productDal)</argsstring>
+        <name>ProductManager</name>
+        <param>
+          <type><ref refid="interface_data_access_1_1_abstarct_1_1_i_product_dal" kindref="compound">IProductDal</ref></type>
+          <declname>productDal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" line="17" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_business_1_1_concrete_1_1_product_manager_1a542f3909d4dada51bbcce69e45c7eec9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_core_1_1_utilities_1_1_results_1_1_i_result" kindref="compound">IResult</ref></type>
+        <definition>IResult Business.Concrete.ProductManager.Add</definition>
+        <argsstring>(Product product)</argsstring>
+        <name>Add</name>
+        <reimplements refid="interface_business_1_1_abstract_1_1_i_product_service_1aa44d5e7d42eff7805bb120f36c796396">Add</reimplements>
+        <param>
+          <type><ref refid="class_entities_1_1_concrete_1_1_product" kindref="compound">Product</ref></type>
+          <declname>product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" line="21" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" bodystart="21" bodyend="25"/>
+        <references refid="class_business_1_1_contants_1_1_messages_1a03139cbb28773a301355656e6ea44229" compoundref="_messages_8cs" startline="9">Business.Contants.Messages.ProductAdded</references>
+      </memberdef>
+      <memberdef kind="function" id="class_business_1_1_concrete_1_1_product_manager_1a7a2b2e7b9e9bc9000da05aa7c73f6e9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_core_1_1_utilities_1_1_results_1_1_i_result" kindref="compound">IResult</ref></type>
+        <definition>IResult Business.Concrete.ProductManager.Delete</definition>
+        <argsstring>(Product product)</argsstring>
+        <name>Delete</name>
+        <reimplements refid="interface_business_1_1_abstract_1_1_i_product_service_1a122d845db4a059026afaabef5cdb2136">Delete</reimplements>
+        <param>
+          <type><ref refid="class_entities_1_1_concrete_1_1_product" kindref="compound">Product</ref></type>
+          <declname>product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" line="27" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" bodystart="27" bodyend="31"/>
+        <references refid="class_business_1_1_contants_1_1_messages_1a7ef74365773d6540061fe9b6acfd8ee8" compoundref="_messages_8cs" startline="10">Business.Contants.Messages.ProductDeleted</references>
+      </memberdef>
+      <memberdef kind="function" id="class_business_1_1_concrete_1_1_product_manager_1aa2f9e7e991f3a6706f79db510179c14d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_core_1_1_utilities_1_1_results_1_1_i_result" kindref="compound">IResult</ref></type>
+        <definition>IResult Business.Concrete.ProductManager.Update</definition>
+        <argsstring>(Product product)</argsstring>
+        <name>Update</name>
+        <reimplements refid="interface_business_1_1_abstract_1_1_i_product_service_1a1d1c7949f938847bbe06ceae27e19923">Update</reimplements>
+        <param>
+          <type><ref refid="class_entities_1_1_concrete_1_1_product" kindref="compound">Product</ref></type>
+          <declname>product</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" line="32" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" bodystart="32" bodyend="36"/>
+        <references refid="class_business_1_1_contants_1_1_messages_1a3f284bacbf6dfbf6c36c16c828896523" compoundref="_messages_8cs" startline="11">Business.Contants.Messages.ProductUpdated</references>
+      </memberdef>
+      <memberdef kind="function" id="class_business_1_1_concrete_1_1_product_manager_1a20e2fa2f6822c34625c6c382812d3d55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IDataResult&lt; <ref refid="class_entities_1_1_concrete_1_1_product" kindref="compound">Product</ref> &gt;</type>
+        <definition>IDataResult&lt;Product&gt; Business.Concrete.ProductManager.GetById</definition>
+        <argsstring>(int productId)</argsstring>
+        <name>GetById</name>
+        <reimplements refid="interface_business_1_1_abstract_1_1_i_product_service_1ab58c1328901b750ad98878247ae03272">GetById</reimplements>
+        <param>
+          <type>int</type>
+          <declname>productId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" line="38" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_business_1_1_concrete_1_1_product_manager_1a96a8290f9da16fdf91350a1e06a0c141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IDataResult&lt; List&lt; <ref refid="class_entities_1_1_concrete_1_1_product" kindref="compound">Product</ref> &gt; &gt;</type>
+        <definition>IDataResult&lt;List&lt;Product&gt; &gt; Business.Concrete.ProductManager.GetList</definition>
+        <argsstring>()</argsstring>
+        <name>GetList</name>
+        <reimplements refid="interface_business_1_1_abstract_1_1_i_product_service_1afe3f369b6e3adad3cb9f5abd7f55ccc8">GetList</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" line="43" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_business_1_1_concrete_1_1_product_manager_1ae6d620a00724e37ebe137bbd10175469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IDataResult&lt; List&lt; <ref refid="class_entities_1_1_concrete_1_1_product" kindref="compound">Product</ref> &gt; &gt;</type>
+        <definition>IDataResult&lt;List&lt;Product&gt; &gt; Business.Concrete.ProductManager.GetListByCategory</definition>
+        <argsstring>(int CategoryId)</argsstring>
+        <name>GetListByCategory</name>
+        <reimplements refid="interface_business_1_1_abstract_1_1_i_product_service_1aecef1dc94cc3a96fd5b1c6206c631bb5">GetListByCategory</reimplements>
+        <param>
+          <type>int</type>
+          <declname>CategoryId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" line="48" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="82">
+        <label>Business.Concrete.ProductManager</label>
+        <link refid="class_business_1_1_concrete_1_1_product_manager"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>IProductService</label>
+        <link refid="interface_business_1_1_abstract_1_1_i_product_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="84">
+        <label>Business.Concrete.ProductManager</label>
+        <link refid="class_business_1_1_concrete_1_1_product_manager"/>
+        <childnode refid="85" relation="public-inheritance">
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>_productDal</edgelabel>
+        </childnode>
+      </node>
+      <node id="87">
+        <label>IEntityRepository&lt; Product &gt;</label>
+      </node>
+      <node id="86">
+        <label>DataAccess.Abstarct.IProductDal</label>
+        <link refid="interface_data_access_1_1_abstarct_1_1_i_product_dal"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>IProductService</label>
+        <link refid="interface_business_1_1_abstract_1_1_i_product_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" line="14" column="1" bodyfile="C:/Users/nr-cl/source/repos/NetCore30Demo/NorthwindBackend/Business/Concrete/ProductManager.cs" bodystart="13" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_business_1_1_concrete_1_1_product_manager_1aa6c71712626771bfbd7d4e66e7e816bb" prot="private" virt="non-virtual"><scope>Business::Concrete::ProductManager</scope><name>_productDal</name></member>
+      <member refid="class_business_1_1_concrete_1_1_product_manager_1a542f3909d4dada51bbcce69e45c7eec9" prot="public" virt="non-virtual"><scope>Business::Concrete::ProductManager</scope><name>Add</name></member>
+      <member refid="class_business_1_1_concrete_1_1_product_manager_1a7a2b2e7b9e9bc9000da05aa7c73f6e9d" prot="public" virt="non-virtual"><scope>Business::Concrete::ProductManager</scope><name>Delete</name></member>
+      <member refid="class_business_1_1_concrete_1_1_product_manager_1a20e2fa2f6822c34625c6c382812d3d55" prot="public" virt="non-virtual"><scope>Business::Concrete::ProductManager</scope><name>GetById</name></member>
+      <member refid="class_business_1_1_concrete_1_1_product_manager_1a96a8290f9da16fdf91350a1e06a0c141" prot="public" virt="non-virtual"><scope>Business::Concrete::ProductManager</scope><name>GetList</name></member>
+      <member refid="class_business_1_1_concrete_1_1_product_manager_1ae6d620a00724e37ebe137bbd10175469" prot="public" virt="non-virtual"><scope>Business::Concrete::ProductManager</scope><name>GetListByCategory</name></member>
+      <member refid="class_business_1_1_concrete_1_1_product_manager_1a464af614d947fa687b6b2ec36c7deef5" prot="public" virt="non-virtual"><scope>Business::Concrete::ProductManager</scope><name>ProductManager</name></member>
+      <member refid="class_business_1_1_concrete_1_1_product_manager_1aa2f9e7e991f3a6706f79db510179c14d" prot="public" virt="non-virtual"><scope>Business::Concrete::ProductManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
