@@ -1,6 +1,6 @@
 # This is an application based on Restful APIs consisting of two controllers such as categories and products.
 
-You can do CRUD operations by using this apis on category and product table. 
+You can do CRUD operations by using this APIs on category and product table. 
 
 Used technologies;
 
